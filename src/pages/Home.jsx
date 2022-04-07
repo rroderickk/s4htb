@@ -104,7 +104,7 @@ return ( <>
 						}
 					/>
 					<Input border="none" autoFocus
-						type='tel' placeholder='Search by name....'
+						type='search' placeholder='Search by name....'
 						size='lg' fontSize={'20px'}
 						borderRadius={'8px'}
 						minW={'280px'} w="100%" 
