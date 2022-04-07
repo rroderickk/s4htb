@@ -113,7 +113,6 @@ return ( <>
 					/>
 				</InputGroup>
 
-
 					<MachineList 
 						objetosFiltrados={searchedText}
 						NotFound={()=> NotFound(searchValue)}

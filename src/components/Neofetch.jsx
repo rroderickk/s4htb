@@ -17,17 +17,17 @@ const Neofetch =()=> { return (<>
       css={{borderRadius: "8px"}}
     boxShadow={"0px 0px 40px rgba(0, 0, 0, 0.13)"}
   >
-    <Box mt={48} w="inherit" borderWidth="1px">
+    <Box mt={48}>
 
-      <Img src={neo} alt="neofetch"
-        style={{borderRadius: "8px"}} 
-        w="90%"
-      /><br/>
+      <Box borderWidth="1px" p="8" maxW="820px">
+        <Img src={neo} alt="neofetch" w="100%"
+          style={{ borderRadius: "8px"}}
+        /><br/>
+      </Box>
 
         <Button m={10}
           leftIcon={<ViewIcon/>}
           as='a' target='_blank' 
-          variant='outline' 
           href="https://www.youtube.com/watch?v=fshLf6u8B-w"
           css={{ color: "crimson" }}
           _hover={{ color: "#48BB78" }} >
