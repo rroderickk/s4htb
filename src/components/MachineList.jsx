@@ -9,7 +9,7 @@ WarningTwoIcon, SmallCloseIcon,
 
 const MachineList =(props)=> { return ( <>
 
-<Container
+<Container as="section"
   bg="white" 
   p={8} 
   css={{borderRadius: "8px"}}
@@ -20,7 +20,7 @@ const MachineList =(props)=> { return ( <>
 
   props.objetosFiltrados.map( 
     obj=> { return ( <React.Fragment key={obj.sku} >
-      <Container 
+      <Container as="article"
         bg="white" p={8} mb={8} mt={8}
           textAlign={'left'}
           css={{borderRadius: "8px"}}

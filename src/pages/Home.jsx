@@ -68,7 +68,7 @@ return ( <>
 						ml={40} mr={40}
 					>Machines</Text>
 				</Tab>
-				<Tab 
+				<Tab
 					fontFamily={'Hack'} color="#e06c76"
 					style={{backgroundColor: "transparent", border:"none"}}
 					_selected={{ 
@@ -92,8 +92,7 @@ return ( <>
 					<InputLeftElement
 						children={
 							<SearchIcon
-								mt={51}
-								ml={26}
+								mt={51} ml={26}
 								sx={{filter: "contrast(0.1)",
 									'&:hover': {
 										filter: 'contrast(0.9)',
