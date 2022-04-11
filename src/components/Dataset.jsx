@@ -723,6 +723,20 @@ Dataset.push({ name: "Overflow",
 	resuelta: true,
 });
 
+Dataset.push({ name: "Fighter", //.unshift lo situa al inicio, .push al final de la lista
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.10.72",
+	so: "Windows",
+	dificultad:	"Insane",
+	skills: "Advanced SQL Injection - MS SQL Server 2014 [Bypass Protection] [Python Scripting] [RCE] Abusing Cron Jobs Capcom Rootkit Privilege Escalation Binary and DLL Analysis in order to get root.txt [Radare2]",
+	like: "eWPT eWPTXv2 OSWE OSCP",
+	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
+	activeDirectory: "",
+	youtube: "https://twitch.tv/s4vitaar",
+	resuelta: false,
+});
+
 
 /*Dataset.push({ name: "",
 	id: count(),
@@ -737,6 +751,4 @@ Dataset.push({ name: "Overflow",
 	comment: "",
 });
 */
-
-
 export { Dataset };

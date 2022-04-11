@@ -82,6 +82,10 @@ const MachineList =(props)=> { return ( <>
             filter: "contrast(0.3)"
           }}>Skills:</span> {obj.skills}<br/><br/>
 
+          <span style={{
+            filter: "contrast(0.1)"
+          }}>{obj.comment}</span>
+
           <Box __css={{
             backdropFilter: "blur(40px)",
             filter: 'contrast(0.9)',

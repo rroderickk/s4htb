@@ -10,6 +10,7 @@ import { SearchHook, NotFound, } from "../components/SearchHook2";
 import { SearchIcon, } from "@chakra-ui/icons";
 import { Neofetch } from '../components/Neofetch.jsx';
 import { Animate } from "./Animate";
+import { Footer } from "../components/Footer";
 
 const Home =({color, light})=> { 
 	const {
@@ -129,5 +130,6 @@ return ( <> <Animate>
 		</Tabs>
 	</Container>
 </Container>
+<Footer/>
 </Animate>
 </>	); }; export { Home };
