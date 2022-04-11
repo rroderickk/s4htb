@@ -15,7 +15,7 @@ const App =()=> {
   const color = React.useContext(ThemeContext);
 
 return (
-	<BrowserRouter basename="/">
+	<BrowserRouter>
 	<GlobalStyle/>
 		<Layout light={light} 
 			setDark={setDark} 
