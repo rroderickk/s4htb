@@ -6,12 +6,12 @@ import { Container,
 	InputGroup, InputLeftElement,
  } from '@chakra-ui/react'
 import { MachineList } from "../components/MachineList";
-import { SearchHook, NotFound,
- } from "../components/SearchHook";
+import { SearchHook, NotFound, } from "../components/SearchHook2";
 import { SearchIcon, } from "@chakra-ui/icons";
 import { Neofetch } from '../components/Neofetch.jsx';
+import { Animate } from "./Animate";
 
-const Home =()=> { 
+const Home =({color, light})=> { 
 	const {
 		searchValue,
     setSearchValue, 
@@ -22,13 +22,13 @@ const Home =()=> {
 		setSearchValue(e.target.value)
 	}
 
-return ( <>
+return ( <> <Animate>
 
-<Container as='main' fontFamily={'Hack'} centerContent >
+<Container as='main' fontFamily={'Hack'} centerContent>
 	<Container as='header' centerContent>
 		<Heading as='h1' 
 			style={{
-				marginTop: '80px',
+				marginTop: '40px',
 				fontSize: '2.1rem',
 				filter: 'blur(0.6px)',
 			}}>
@@ -102,8 +102,9 @@ return ( <>
 							/>
 						}
 					/>
-					<Input border="none" autoFocus
-						type='search' placeholder='Search by name....'
+
+					<Input border="none" autoFocus className={light && color.theme4}
+						type='search' placeholder='Search (filter by) name, so, difficulty, skills, like.'
 						size='lg' fontSize={'20px'}
 						borderRadius={'8px'}
 						minW={'280px'} w="100%" 
@@ -114,6 +115,8 @@ return ( <>
 				</InputGroup>
 
 					<MachineList 
+						light={light}
+						color={color}
 						objetosFiltrados={searchedText}
 						NotFound={()=> NotFound(searchValue)}
 					/>
@@ -126,4 +129,5 @@ return ( <>
 		</Tabs>
 	</Container>
 </Container>
+</Animate>
 </>	); }; export { Home };

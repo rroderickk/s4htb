@@ -29,6 +29,9 @@
 	"bugs": {
 		"url": "https://github.com/rroderickk/s4htb/issues"
 	},
+	"resolutions": {
+		"react-scripts/webpack": "5.70.0"
+	},
 	"dependencies": {
 		"@babel/core": "^7.16.12",
 		"@babel/plugin-transform-runtime": "^7.16.10",
@@ -56,11 +59,11 @@
 		"webpack-dev-server": "^4.7.3"
 	},
 	"devDependencies": {
-		"css-loader": "^6.5.1",
-		"mini-css-extract-plugin": "^2.5.3",
-		"sass": "^1.49.0",
-		"sass-loader": "^12.4.0",
-		"style-loader": "^3.3.1",
-		"webpack": "^5.67.0"
+		"css-loader": "6.5.1",
+		"mini-css-extract-plugin": "2.5.3",
+		"sass": "1.49.0",
+		"sass-loader": "12.4.0",
+		"style-loader": "3.3.1",
+		"webpack": "5.70.0"
 	}
 }

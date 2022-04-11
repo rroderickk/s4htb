@@ -660,8 +660,6 @@ Dataset.push({ name: "Tally",
 	resuelta: true,
 });
 
-
-
 Dataset.push({ name: "Ellingson",
 	id: count(),
 	sku: crypto.randomUUID(),
@@ -686,5 +684,59 @@ Dataset.push({ name: "Quick",
 	youtube: "https://www.youtube.com/watch?v=C1NZVah39ms",
 	resuelta: true,
 });
+
+
+Dataset.push({ name: "Traverxec",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.10.165",
+	so: "Linux",
+	dificultad:"Fácil",
+	skills: "Nostromo Exploitation Abusing Nostromo HomeDirs Configuration Exploiting Journalctl (Privilege Escalation)",
+	like: "eWPT OSCP (Escalada)",
+	youtube: "https://www.youtube.com/watch?v=7aCplH8WZm0",
+	resuelta: true,
+});
+
+Dataset.push({ name: "Sink",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.10.225",
+	so: "Linux",
+	dificultad: "Insane",
+	skills: "HTTP Request Smuggling Exploitation (Leak Admin Cookie) Cookie Hijacking Information Leakage AWS Enumeration AWS Secrets Manager AWS Key_management Enumeration AWS KMS Decrypting File",
+	like: "eWPT eWPTXv2 OSWE",
+	youtube: "https://www.youtube.com/watch?v=2qKXz_Rk2YE",
+	resuelta: true,
+});
+
+Dataset.push({ name: "Overflow",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.11.119",
+	so: "Linux",
+	dificultad: "Difícil",
+	skills: "Padding Oracle Attack (Padbuster) Padding Oracle Attack (Bit Flipper Attack - BurpSuite) [EXTRA] Cookie Hijacking SQL Injection (Generic UNION query) - Error Based Breaking Password Upload File - Abusing Exiftool (RCE) DNS Hijacking (Abusing Cron Job) Ghidra Binary Analysis Reversing Code (Computing valid PIN) Buffer Overflow (Controlling the program and manipulating its flow to desired functions) Abusing Decryption Function (XOR Trick) [Privilege Escalation]",
+	like: "OSWE eWPT eWPTXv2 Buffer Overflow",
+	comment: "Arch cambio de hora",
+	youtube: "https://www.youtube.com/watch?v=tEbBDlOFen0",
+	resuelta: true,
+});
+
+
+/*Dataset.push({ name: "",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "",
+	so: "",
+	dificultad:	"",
+	skills: "",
+	like: "",
+	youtube: "",
+	resuelta: true,
+	comment: "",
+});
+*/
+
 
 export { Dataset };

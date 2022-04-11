@@ -21,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
   }
 
-  #root {
+  #root{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     min-height: 100vh;
     display: flex;
@@ -31,13 +31,19 @@ export const GlobalStyle = createGlobalStyle`
     font-family: "Roboto", sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
-  *{
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
+  .black {
+    background-color: #21252e !important;
   }
+  .negro {
+    background-color: #121212 !important;
+    color: #fff !important;
+		filter: 'contrast(0.1) blur(0.4px)',
+  }
+  .whiteContrast {
+    color: #fff !important;
+		filter: 'contrast(0.1) blur(0.4px)',
+  }
+
 `;
 
 const FadeInKeyFrames = keyframes`

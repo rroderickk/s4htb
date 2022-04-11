@@ -1,3 +1,4 @@
+/* Deprecated */
 import React from "react";
 import {Dataset} from "./Dataset";
 

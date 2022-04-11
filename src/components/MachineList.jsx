@@ -14,6 +14,7 @@ const MachineList =(props)=> { return ( <>
   p={8} 
   css={{borderRadius: "8px"}}
   boxShadow="0px 0px 40px rgba(0, 0, 0, 0.13)"
+  className={props.light && props.color.theme4}
 >
 
 { props.objetosFiltrados.length!==0? 
@@ -25,10 +26,12 @@ const MachineList =(props)=> { return ( <>
           textAlign={'left'}
           css={{borderRadius: "8px"}}
         boxShadow={"0px 0px 40px rgba(0, 0, 0, 0.13)"}
+        className={props.light && props.color.theme4}
       >
         <Box p={13} flex='true'
-          __css={{ lineHeight: '1.5',
-        }}>
+          __css={{ lineHeight: '1.5', }}
+          className={props.light && props.color.theme2}
+        >
           <Box __css={{
             verticalAlign: 'center',
             lineHeight: '1.5',
@@ -75,7 +78,9 @@ const MachineList =(props)=> { return ( <>
             />{obj.dificultad}<br/><br/>
           </Box>
 
-          Skills: {obj.skills}<br/><br/>
+          <span style={{
+            filter: "contrast(0.3)"
+          }}>Skills:</span> {obj.skills}<br/><br/>
 
           <Box __css={{
             backdropFilter: "blur(40px)",
@@ -83,6 +88,8 @@ const MachineList =(props)=> { return ( <>
             background: "transparent",
             borderRadius: "4px",
             padding: "8px",
+            position: "relative",
+            borderLeft: "8px solid crimson",
           }}>
             <LinkIcon ml={4} mr={4}/>{obj.like}
           </Box>
