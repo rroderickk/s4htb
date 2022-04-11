@@ -2,7 +2,7 @@
 	"name": "s4",
 	"version": "0.0.4",
 	"description": "s4machines",
-	"homepage": "https://rroderickk.github.io/s4htb",
+	"homepage": "https://htbmachines.github.io",
 	"main": ".src/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
