@@ -719,6 +719,8 @@ Dataset.push({ name: "Overflow",
 	skills: "Padding Oracle Attack (Padbuster) Padding Oracle Attack (Bit Flipper Attack - BurpSuite) [EXTRA] Cookie Hijacking SQL Injection (Generic UNION query) - Error Based Breaking Password Upload File - Abusing Exiftool (RCE) DNS Hijacking (Abusing Cron Job) Ghidra Binary Analysis Reversing Code (Computing valid PIN) Buffer Overflow (Controlling the program and manipulating its flow to desired functions) Abusing Decryption Function (XOR Trick) [Privilege Escalation]",
 	like: "OSWE eWPT eWPTXv2 Buffer Overflow",
 	comment: "Arch cambio de hora",
+	activeDirectory: "Active directory", // test5
+	bufferOverFlow: "Buffer overflow", // test5
 	youtube: "https://www.youtube.com/watch?v=tEbBDlOFen0",
 	resuelta: true,
 });
@@ -731,6 +733,8 @@ Dataset.push({ name: "Fighter",
 	dificultad:	"Insane",
 	skills: "Advanced SQL Injection - MS SQL Server 2014 [Bypass Protection] [Python Scripting] [RCE] Abusing Cron Jobs Capcom Rootkit Privilege Escalation Binary and DLL Analysis in order to get root.txt [Radare2]",
 	like: "eWPT eWPTXv2 OSWE OSCP",
+	activeDirectory: "Active directory", // test5
+	bufferOverFlow: "Buffer overflow", // test5
 	youtube: "https://www.youtube.com/watch?v=DWF0inlo8Zw",
 	resuelta: true,
 });
