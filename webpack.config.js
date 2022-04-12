@@ -7,7 +7,7 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, "dist"),
 		filename: "bundle.js",
-		publicPath: "./", //! para correr npm start en local quitarle el punto, para subirlo al servidor el punto es lo importante.
+		publicPath: "/", //! para correr npm start en local quitarle el punto, para subirlo al servidor el punto es lo importante.
 	},
 	mode: "development",
 	resolve: {
