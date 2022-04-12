@@ -738,6 +738,19 @@ Dataset.push({ name: "Fighter", //.unshift lo situa al inicio, .push al final de
 });
 
 
+Dataset.unshift({ name: "test",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "test",
+	so: "test",
+	dificultad:	"Insane",
+	skills: "tet",
+	like: "tes",
+	youtube: "tes",
+	resuelta: false,
+	comment: "true",
+});
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
