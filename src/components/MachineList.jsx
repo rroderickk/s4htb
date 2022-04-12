@@ -95,6 +95,20 @@ const MachineList =(props)=> { return ( <>
             position: "relative",
             borderLeft: "8px solid crimson",
           }}>
+            
+            { obj.activeDirectory && <TriangleUpIcon color="blue" mr={4}/> }
+
+            <span style={{
+              color: "blue",
+            }}>{ obj.activeDirectory && obj.activeDirectory+' '}</span>
+
+            {obj.bufferOverFlow && <HamburgerIcon color="orange" mr={4}/> }
+
+            <span style={{
+              color: "orange",
+            }}>{ obj.bufferOverFlow && obj.bufferOverFlow+' '}</span>
+            
+            
             <LinkIcon ml={4} mr={4}/>{obj.like}
           </Box>
 
