@@ -15,7 +15,7 @@ const App =()=> {
   const color = React.useContext(ThemeContext);
 
 return (
-	<BrowserRouter>
+	<BrowserRouter basename="/htbmachines.github.io">
 	<GlobalStyle/>
 		<Layout light={light} 
 			setDark={setDark} 
