@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Box , Button
 } from '@chakra-ui/react'
-import { ViewIcon, 
+import { ViewIcon,  HamburgerIcon,
 SettingsIcon, DragHandleIcon,
-LinkIcon, CheckIcon,
+LinkIcon, CheckIcon, TriangleUpIcon,
 WarningTwoIcon, SmallCloseIcon,
 } from '@chakra-ui/icons'
 
