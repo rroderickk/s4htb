@@ -723,7 +723,7 @@ Dataset.push({ name: "Overflow",
 	resuelta: true,
 });
 
-Dataset.push({ name: "Fighter", //.unshift lo situa al inicio, .push al final de la lista
+Dataset.push({ name: "Fighter",
 	id: count(),
 	sku: crypto.randomUUID(),
 	ip: "10.10.10.72",
@@ -733,22 +733,22 @@ Dataset.push({ name: "Fighter", //.unshift lo situa al inicio, .push al final de
 	like: "eWPT eWPTXv2 OSWE OSCP",
 	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
 	activeDirectory: "",
-	youtube: "https://twitch.tv/s4vitaar",
-	resuelta: false,
+	youtube: "https://www.youtube.com/watch?v=DWF0inlo8Zw",
+	resuelta: true,
 });
 
-
-Dataset.unshift({ name: "test",
+Dataset.push({ name: "Tabby",
 	id: count(),
 	sku: crypto.randomUUID(),
-	ip: "test",
-	so: "test",
-	dificultad:	"Insane",
-	skills: "tet",
-	like: "tes",
-	youtube: "tes",
+	ip: "10.10.10.194",
+	so: "Linux",
+	dificultad:	"Fácil",
+	skills: "Local File Inclusion (LFI) Abusing Tomcat Virtual Host Manager Abusing Tomcat Text-Based-Manager - Deploy Malicious War (Curl Method) LXC Exploitation (Privilege Escalation)",
+	like: "eWPT eWPTXv2 OSWE OSCP",
+	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
+	activeDirectory: "",
+	youtube: "https://twitch.tv/s4vitaar",
 	resuelta: false,
-	comment: "true",
 });
 
 /*Dataset.push({ name: "",
