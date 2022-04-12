@@ -57,7 +57,14 @@ const SearchHook =()=> {
           .includes(searchValueLowerNoAccents)     ||
 
         obj.so.toLowerCase()
-          .includes(searchValueLowerNoAccents);
+          .includes(searchValueLowerNoAccents)     ||
+
+        obj.activeDirectory && obj.activeDirectory.toLowerCase()
+          .includes(searchValueLowerNoAccents)     ||
+
+        obj.bufferOverFlow && obj.bufferOverFlow.toLowerCase() 
+          .includes(searchValueLowerNoAccents)
+				
     });
   };
 
