@@ -51,18 +51,18 @@ const MachineList =(props)=> { return ( <>
               ml={40} mr={4} mt={-2}
             /> Ip {obj.ip}
 
-              &nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;
             Resolved? {obj.resuelta===true ? 
               <CheckIcon mt={-2} color="green"/> 
                               :
               <SmallCloseIcon mt={-2} color="red"/>}
 
-              &nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;
             <SettingsIcon 
               ml={4} mt={-2}
             /> {obj.so}
 
-              &nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;
             <WarningTwoIcon 
               ml={4} mr={8} mt={-2}
               css={{ color:
@@ -75,7 +75,20 @@ const MachineList =(props)=> { return ( <>
                 }})()
 
               }}
-            />{obj.dificultad}<br/><br/>
+            />{obj.dificultad}&nbsp;
+              
+            {obj.activeDirectory && <TriangleUpIcon color="blue" ml={4} mr={4} mt={-4}/>}
+
+            <span style={{
+              color: "blue",
+            }}>{ obj.activeDirectory && obj.activeDirectory+' '}</span>&nbsp;
+
+            {obj.bufferOverFlow && <HamburgerIcon color="orange" mr={4} mt={-4}/>}
+
+            <span style={{
+              color: "orange",
+            }}>{ obj.bufferOverFlow && obj.bufferOverFlow+' '}</span><br/><br/>
+            
           </Box>
 
           <span style={{
@@ -94,21 +107,7 @@ const MachineList =(props)=> { return ( <>
             padding: "8px",
             position: "relative",
             borderLeft: "8px solid crimson",
-          }}>
-            
-            { obj.activeDirectory && <TriangleUpIcon color="blue" mr={4}/> }
-
-            <span style={{
-              color: "blue",
-            }}>{ obj.activeDirectory && obj.activeDirectory+' '}</span>
-
-            {obj.bufferOverFlow && <HamburgerIcon color="orange" mr={4}/> }
-
-            <span style={{
-              color: "orange",
-            }}>{ obj.bufferOverFlow && obj.bufferOverFlow+' '}</span>
-            
-            
+          }}> 
             <LinkIcon ml={4} mr={4}/>{obj.like}
           </Box>
 
