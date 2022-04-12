@@ -14,8 +14,9 @@ const Dataset = [
 		so: "linux",
 		dificultad: "Difícil",
 		skills: "DNS Enumeration (dnsenum), SQUID Proxy, WPAD Enumeration, SQLI (Error Based) [WHQIS], PCAP Analysis (Tshark && Wireshark), Abusing Rootkit",
-		like: "eCCPv2 eCPTXv2 OSCP OSEP eWPT eWPTXv2 eWPTXv2 OSWE",
-		youtube: "https://www.youtube.com/watch?v=hFIWuWVIDek", 
+		like: "eCPPT eCPTXv2 OSCP OSEP eWPT eWPTXv2 eWPTXv2 OSWE",
+		youtube: "https://www.youtube.com/watch?v=hFIWuWVIDek",
+		activeDirectory: "Active directory",
 		resuelta: true,
 	},
 ];
@@ -53,8 +54,8 @@ Dataset.push({ name: "Mischief",
 	dificultad:	"Difícil",
 	skills: "SNMP Enumeration Information Leakage IPV6 ICMP Data Exfiltration (Python Scapy)",
 	like: 	"OSCP eWPT eWPTXv2 eCPPTv2 eCPTXv2 OSWE",
-  youtube : "https://www.youtube.com/watch?v=Q6vlt9BlnWg",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=Q6vlt9BlnWg",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Reddish",
@@ -65,8 +66,8 @@ Dataset.push({ name: "Reddish",
 	dificultad: "Insane",
 	skills:  "Abusing Node-Red Chisel & Socat Usage Redis-Cli Exploitation Rsync Abusing Cron Exploitation Disk Mount File Transfer Tips PIVOTING",
 	like:	"eCPPTv2 eCPTXv2",
-  youtube : "https://www.youtube.com/watch?v=XQQ104hWFXE",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=XQQ104hWFXE",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Return",
@@ -77,8 +78,8 @@ Dataset.push({ name: "Return",
 	dificultad:	"Fácil",
 	skills: "Abusing Printer Abusing Server Operators Group Service Configuration Manipulation",
 	like: "eJPT OSCP (Escalada)",
-  youtube : "https://www.youtube.com/watch?v=5QC5lshrDDo",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=5QC5lshrDDo",
+	resuelta: true,
 });
 
 
@@ -90,11 +91,9 @@ Dataset.push({ name: "Horizontall",
 	dificultad:	"Fácil",
 	skills: "Information Leakage Port Forwarding Strapi CMS Exploitation Laravel Exploitation",
 	like:	"eWPT eJPT",
-  youtube : "https://www.youtube.com/watch?v=s2b-BH0I7R4",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=s2b-BH0I7R4",
+	resuelta: true,
 });
-
-
 
 Dataset.push({ name: "Pressed",
 	id: count(),
@@ -104,8 +103,8 @@ Dataset.push({ name: "Pressed",
 	dificultad:	"Difícil",
 	skills: "Password Guessing WordPress Abusing RPC Calls WordPress XML-RPC Create WebShell PwnKit Exploit",
 	like:	"OSCP eWPT eWPTXv2 OSWE",
-  youtube : "https://www.youtube.com/watch?v=67TQsX88EtM",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=67TQsX88EtM",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Epsilon",
@@ -116,8 +115,8 @@ Dataset.push({ name: "Epsilon",
 	dificultad:	"Media",
 	skills: "Git Source Leak Exploit (GitHack) AWS Enumeration Lambda Function Enumeration Authentication Bypass Abusing JWT Server Side Template Injection (SSTI) Tar Symlink Exploitation",
 	like:	"eWPT eWPTXv2 OSCP OSWE",
-  youtube : "https://www.youtube.com/watch?v=tMsK6ZiB7CQ",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=tMsK6ZiB7CQ",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Jeeves",
@@ -128,8 +127,8 @@ Dataset.push({ name: "Jeeves",
 	dificultad:	"Media",
 	skills: "Jenkins Exploitation (Groovy Script Console) RottenPotato (SeImpersonatePrivilege) PassTheHash (Psexec) Breaking KeePass Alternate Data Streams (ADS)",
 	like:	"OSCP eJPT eWPT",
-  youtube : "https://www.youtube.com/watch?v=TwJiEWjI6Go",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=TwJiEWjI6Go",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Pit",
@@ -140,8 +139,8 @@ Dataset.push({ name: "Pit",
 	dificultad:	"Media",
 	skills: "Information Leakage SNMP Enumeration (Snmpwalk/Snmpbulkwalk) SeedDMS Exploitation SELinux (Extra) SNMP Code Execution",
 	like:	"OSCP eWPT",
-  youtube : "https://www.youtube.com/watch?v=mxHbnV_LB20",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=mxHbnV_LB20",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Blackfield",
@@ -152,8 +151,9 @@ Dataset.push({ name: "Blackfield",
 	dificultad:	"Difícil",
 	skills: "SMB Enumeration Kerberos User Enumeration (Kerbrute) ASRepRoast Attack (GetNPUsers) Bloodhound Enumeration Abusing ForceChangePassword Privilege (net rpc) Lsass Dump Analysis (Pypykatz) Abusing WinRM SeBackupPrivilege Exploitation DiskShadow Robocopy Usage NTDS Credentials Extraction (secretsdump)",
 	like: "OSCP OSEP",
-  youtube : "https://www.youtube.com/watch?v=0cPq2UV2vmg",
-  resuelta: true,
+	activeDirectory: "Active directory",
+	youtube : "https://www.youtube.com/watch?v=0cPq2UV2vmg",
+	resuelta: true,
 });
 
 Dataset.push({ name: "EarlyAccess",
@@ -164,8 +164,8 @@ Dataset.push({ name: "EarlyAccess",
 	dificultad:	"Difícil",
 	skills: "XSS Injection XSS Cookie Stealing Cookie Hijacking Code Analysis Building a Key Generator (PYTHON) SQLI (Error Based) LFI && Wrappers Bash Scripting for Host Discovering Information Leakage Pivoting Abusing Docker Abusing Capabilities",
 	like:	"eCPPTv2 eCPTXv2 OSCP eWPT eWPTXv2 OSWE",
-  youtube : "https://www.youtube.com/watch?v=31CvSq9lcqU",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=31CvSq9lcqU",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Flustered",
@@ -176,8 +176,8 @@ Dataset.push({ name: "Flustered",
 	dificultad:	"Media",
 	skills: "Abusing Squid Proxy Abusing GlusterFS Information Leakage Server Side Template Injection (SSTI)[RCE] Abusing Azure Storage",
 	like:	"OSCP eJPT eWPT eWPTXv2 eCPPTv2 OSWE",
-  youtube : "https://www.youtube.com/watch?v=MQeB_fItmW8",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=MQeB_fItmW8",
+	resuelta: true,
 });
 
 Dataset.push({
@@ -189,8 +189,8 @@ Dataset.push({
 	dificultad:	"Fácil",
 	skills: "Server Side Request Forgery (SSRF) Exploiting Voting System Abusing AlwaysInstallElevated (msiexec/msi file)",
 	like:	"eJPT eWPT OSCP (Escalada)",
-  youtube : "https://www.youtube.com/watch?v=5tEBvG0OnWQ",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=5tEBvG0OnWQ",
+	resuelta: true,
 });
 
 Dataset.push({ name: "NodeBlog",
@@ -201,8 +201,8 @@ Dataset.push({ name: "NodeBlog",
 	sku: crypto.randomUUID(),
 	skills: "NoSQL Injection (Authentication Bypass) XXE File Read NodeJS Deserialization Attack (IIFE Abusing) Mongo Database Enumeration",
 	like: "eJPT eWPT",
-  youtube : "https://www.youtube.com/watch?v=MPArplyCIjM",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=MPArplyCIjM",
+	resuelta: true,
 });
 
 Dataset.push({ name: "NunChucks",
@@ -213,8 +213,8 @@ Dataset.push({ name: "NunChucks",
 	dificultad:	"Fácil",
 	skills: "NodeJS SSTI (Server Side Template Injection) AppArmor Profile Bypass (Privilege Escalation)",
 	like: "eJPT eWPT",
-  youtube : "https://www.youtube.com/watch?v=RRig0TQKYy8",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=RRig0TQKYy8",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Bolt",
@@ -225,8 +225,8 @@ Dataset.push({ name: "Bolt",
 	sku: crypto.randomUUID(),
 	skills: "Information Leakage Subdomain Enumeration SSTI (Server Side Template Injection) Abusing PassBolt Abusing GPG",
 	like: "eJPT eWPT eWPTXv2 OSWE",
-  youtube : "https://www.youtube.com/watch?v=zemqqJMl1VA",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=zemqqJMl1VA",
+	resuelta: true,
 });
 
 Dataset.push({ name: "GoodGames",
@@ -237,8 +237,8 @@ Dataset.push({ name: "GoodGames",
 	sku: crypto.randomUUID(),
 	skills: "SQLI (Error Based) Hash Cracking Weak Algorithms Password Reuse Server Side Template Injection (SSTI) Docker Breakout (Privilege Escalation) [PIVOTING]",
 	like:	"eJPT eWPT eCPPTv2 OSCP (Escalada)",
-  youtube : "https://www.youtube.com/watch?v=r3WMeRtwmFc",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=r3WMeRtwmFc",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Hawk",
@@ -248,8 +248,8 @@ Dataset.push({ name: "Hawk",
 	id: count(),
 	sku: crypto.randomUUID(),
 	skills: "OpenSSL Cipher Brute Force and Decryption Drupal Enumeration/Exploitation H2 Database Exploitation", like: "eJPT eWPT",
-  youtube : "https://www.youtube.com/watch?v=qiCozh2m0yE",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=qiCozh2m0yE",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Monitors",
@@ -260,10 +260,9 @@ Dataset.push({ name: "Monitors",
 	sku: crypto.randomUUID(),
 	skills: "Information Leakage WordPress Plugin Exploitation (Spritz) Local File Inclusion (LFI) Cacti 1.2.12 Exploitation Apache OfBiz Deserialization Attack (RCE) Docker Breakout (cap_sys_module Capabilitie) [PRIVILEGE ESCALATION]",
 	like:	"eCPPTv2 eWPT eWPTXv2 OSCP OSWE",
-  youtube : "https://www.youtube.com/watch?v=u0eFap03oDY",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=u0eFap03oDY",
+	resuelta: true,
 });
-
 
 Dataset.push({ name: "Intelligence",
 	ip: "10.10.10.248",
@@ -273,10 +272,10 @@ Dataset.push({ name: "Intelligence",
 	sku: crypto.randomUUID(),
 	skills: "Information Leakage Kerberos Enumeration (Kerbrute) Creating a DNS Record (dnstool.py) [Abusing ADIDNS] Intercepting Net-NTLMv2 Hashes with Responder BloodHound Enumeration Abusing ReadGMSAPassword Rights (gMSADumper) Pywerview Usage Abusing Unconstrained Delegation Abusing AllowedToDelegate Rights (getST.py) (User Impersonation) Using .ccache file with wmiexec.py (KRB5CCNAME)",
 	like:	"OSCP OSEP",
-  youtube : "https://www.youtube.com/watch?v=LI8wnTUc5-I",
-  resuelta: true,
+	activeDirectory: "Active directory",
+	youtube : "https://www.youtube.com/watch?v=LI8wnTUc5-I",
+	resuelta: true,
 });
-
 
 Dataset.push({ name: "Scavenger",
 	ip: "10.10.10.155",
@@ -286,8 +285,8 @@ Dataset.push({ name: "Scavenger",
 	sku: crypto.randomUUID(),
 	skills: "Domain Zone Transfer (AXFR) SQLI (Error Based) [WHOIS] PCAP Analysis (Tshark && Wireshark) Abusing Rootkit",
 	like: "eWPT",
-  youtube : "https://www.youtube.com/watch?v=5-L8T8Qsxfs",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=5-L8T8Qsxfs",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Driver",
@@ -298,8 +297,8 @@ Dataset.push({ name: "Driver",
 	sku: crypto.randomUUID(),
 	skills: "Password Guessing SCF Malicious File Print Spooler Local Privilege Escalation (PrintNightmare) [CVE-2021-1675]",
 	like:	"OSCP (Escalada) eJPT",
-  youtube : "https://www.youtube.com/watch?v=TY8NgOUVXjM",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=TY8NgOUVXjM",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Minion",
@@ -310,8 +309,8 @@ Dataset.push({ name: "Minion",
 	sku: crypto.randomUUID(),
 	skills: "Server Side Request Forgery (SSRF) [Internal Port Discovery] ICMP Reverse Shell (PowerShell) [Firewall Bypassing] Alternate Data Streams (ADS) Firewall Evasion [Firewall Rules Manipulation]",
 	like: "eWPTXv2 OSWE",
-  youtube : "https://www.youtube.com/watch?v=yCXJI0H0704",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=yCXJI0H0704",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Sizzle",
@@ -322,8 +321,9 @@ Dataset.push({ name: "Sizzle",
 	sku: crypto.randomUUID(),
 	skills: "SMBCacls Enumeration Malicious SCF File (Getting NetNTLMv2 Hash) Ldap Enumeration (LdapDomainDump) Abusing Microsoft Active Directory Certificate Services Creating Certificate Signing Requests (CSR) [Openssl] CLM / AppLocker Break Out (Escaping ConstrainedLanguage) PSByPassCLM Usage (CLM / AppLocker Break out) Msbuild (CLM / AppLocker Break Out) Kerberoasting Attack (Rubeus) Kerberoasting Attack (Chisel Port Forward - GetUserSPNs.py) WINRM Connections BloodHound Enumeration DCSync Attack (secretsdump.py) DCSync Attack (Mimikatz) PassTheHash (wmiexec.py)",
 	like:	"OSCP OSEP"	,
-  youtube : "https://www.youtube.com/watch?v=7W2h7qoCShk",
-  resuelta: true,
+	activeDirectory: "Active directory",
+	youtube : "https://www.youtube.com/watch?v=7W2h7qoCShk",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Toolbox",
@@ -334,8 +334,8 @@ Dataset.push({ name: "Toolbox",
 	sku: crypto.randomUUID(),
 	skills: "PostgreSQL Injection (RCE) Abusing boot2docker [Docker-Toolbox] Pivoting",
 	like: "eWPT OSCP (Intrusión) eJPT eCPPTv2",
-  youtube : "https://www.youtube.com/watch?v=0wTYfJsZdKU",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=0wTYfJsZdKU",
+	resuelta: true,
 });
 
 Dataset.push({
@@ -347,8 +347,8 @@ Dataset.push({
 	sku: crypto.randomUUID(),
 	skills: "WordPress Lcars Plugin SQLI Vulnerability SQL Injection (boolean-based blind, error-based, time-based blind) WordPress Exploitation [www-data] (Theme Edition - 404.php Template) Joomla Exploitation [www-data] (Template Manipulation) Docker Breakout Ghidra Binary Analysis Buffer Overflow (No ASLR - PIE enabled) [RET2LIBC] (Privilege Escalation)",
 	like: "eWPT eCPPTv2 eCPTXv2 Buffer Overflow",
-  youtube : "https://www.youtube.com/watch?v=2ZzVu5mdzgA",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=2ZzVu5mdzgA",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Chaos",
@@ -359,10 +359,9 @@ Dataset.push({ name: "Chaos",
 	sku: crypto.randomUUID(),
 	skills: "Password Guessing Abusing e-mail service (claws-mail) Crypto Challenge (Decrypt Secret Message - AES Encrypted) LaTeX Injection (RCE) Bypassing rbash (Restricted Bash) Extracting Credentials from Firefox Profile",
 	like:	"eWPT eJPT"	,
-  youtube : "https://www.youtube.com/watch?v=-t0CkWmiq6s",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=-t0CkWmiq6s",
+	resuelta: true,
 });
-
 
 Dataset.push({ name: "SteamCloud",
 	ip: "10.10.11.133",
@@ -372,8 +371,8 @@ Dataset.push({ name: "SteamCloud",
 	sku: crypto.randomUUID(),
 	skills: "Kubernetes API Enumeration (kubectl) Kubelet API Enumeration (kubeletctl) Command Execution through kubeletctl on the containers Cluster Authentication (ca.crt/token files) with kubectl Creating YAML file for POD creation Executing commands on the new POD Reverse Shell through YAML file while deploying the POD",
 	like:	"eWPTXv2 OSWE",
-  youtube : "https://www.youtube.com/watch?v=q3mFOd8eRQs",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=q3mFOd8eRQs",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Seal",
@@ -384,20 +383,20 @@ Dataset.push({ name: "Seal",
 	sku: crypto.randomUUID(),
 	skills: "Information Leakage (GitBucket) Breaking Parser Logic - Abusing Reverse Proxy / URI Normalization Exploiting Tomcat (RCE) [Creating malicious WAR] Abusing existing YML Playbook file [Cron Job] Ansible-playbook exploitation (sudo privilege)",
 	like:	"eWPT eWPTXv2 OSCP (Intrusión) OSWE"	,
-  youtube : "https://www.youtube.com/watch?v=IShxpoRMxW8",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=IShxpoRMxW8",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Hancliffe",
 	ip: "10.10.11.115",
 	so: "Windows",
 	dificultad:	"Difícil",
-  id: count(),
+	id: count(),
 	sku: crypto.randomUUID(),
 	skills: "Abusing URI Normalization Server Side Template Injection (SSTI) [NUXEO Vulnerability] Unified Remote 3 Exploitation (RCE) Decrypt Mozilla protected passwords Reversing EXE in Ghidra Buffer Overflow (Socket Reuse Technique) [AVANZADO]",
 	like: "Buffer Overflow OSED OSCP (Intrusión) eWPT eWPTXv2 OSWE",
-  youtube : "https://www.youtube.com/watch?v=A_7Cwl2bBC0",
-  resuelta: true,
+	youtube : "https://www.youtube.com/watch?v=A_7Cwl2bBC0",
+	resuelta: true,
 });
 
 Dataset.push({ name: "Antique",
@@ -420,6 +419,7 @@ Dataset.push({ name: "Object",
 	sku: crypto.randomUUID(),
 	skills: "Jenkins Exploitation (New Job + Abusing Build Periodically) Jenkins Exploitation (Abusing Trigger builds remotely using TOKEN) Firewall Enumeration Techniques Jenkins Password Decrypt BloodHound Enumeration Abusing ForceChangePassword with PowerView Abusing GenericWrite (Set-DomainObject - Setting Script Logon Path) Abusing WriteOwner (Takeover Domain Admins Group)" ,
 	like:	"OSCP OSEP OSWE",
+	activeDirectory: "Active directory",
 	youtube : "https://www.youtube.com/watch?v=K8d2CmQAV9Q",
 	resuelta: true,
 });
@@ -516,6 +516,7 @@ Dataset.push({ name: "Mantis",
 	dificultad:	"Difícil",
 	skills: "Database Enumeration (DBeaver) Bloodhound Enumeration (bloodhound-python) Exploiting MS14-068 (goldenPac.py) [Microsoft Kerberos Checksum Validation Vulnerability]",
 	like: "OSCP OSEP",
+	activeDirectory: "Active directory",
 	youtube : "https://www.youtube.com/watch?v=3p0myaukHBk",
 	resuelta: true,
 });
@@ -567,8 +568,6 @@ Dataset.push({ name: "SneakyMailer",
 	resuelta: true,
 });
 
-
-
 Dataset.push({ name: "Secret",
 	id: count(),
 	sku: crypto.randomUUID(),
@@ -605,8 +604,6 @@ Dataset.push({ name: "Haystack",
 	resuelta: true,
 });
 
-
-
 Dataset.push({ name: "Passage",
 	id: count(),
 	sku: crypto.randomUUID(),
@@ -618,8 +615,6 @@ Dataset.push({ name: "Passage",
 	youtube : "https://www.youtube.com/watch?v=O5v3yzvgYjw",
 	resuelta: true,
 });
-
-
 
 Dataset.push({ name: "Altered",
 	id: count(),
@@ -633,8 +628,6 @@ Dataset.push({ name: "Altered",
 	resuelta: true,
 });
 
-
-
 Dataset.push({ name: "Shibboleth",
 	id: count(),
 	sku: crypto.randomUUID(),
@@ -646,7 +639,6 @@ Dataset.push({ name: "Shibboleth",
 	youtube : "https://www.youtube.com/watch?v=mkB1Vfw35XY",
 	resuelta: true,
 });
-
 
 Dataset.push({ name: "Tally",
 	id: count(),
@@ -672,7 +664,6 @@ Dataset.push({ name: "Ellingson",
 	resuelta: true,
 });
 
-
 Dataset.push({ name: "Quick",
 	id: count(),
 	sku: crypto.randomUUID(),
@@ -684,7 +675,6 @@ Dataset.push({ name: "Quick",
 	youtube: "https://www.youtube.com/watch?v=C1NZVah39ms",
 	resuelta: true,
 });
-
 
 Dataset.push({ name: "Traverxec",
 	id: count(),
@@ -718,9 +708,7 @@ Dataset.push({ name: "Overflow",
 	dificultad: "Difícil",
 	skills: "Padding Oracle Attack (Padbuster) Padding Oracle Attack (Bit Flipper Attack - BurpSuite) [EXTRA] Cookie Hijacking SQL Injection (Generic UNION query) - Error Based Breaking Password Upload File - Abusing Exiftool (RCE) DNS Hijacking (Abusing Cron Job) Ghidra Binary Analysis Reversing Code (Computing valid PIN) Buffer Overflow (Controlling the program and manipulating its flow to desired functions) Abusing Decryption Function (XOR Trick) [Privilege Escalation]",
 	like: "OSWE eWPT eWPTXv2 Buffer Overflow",
-	comment: "Arch cambio de hora",
-	activeDirectory: "Active directory", // test5
-	bufferOverFlow: "Buffer overflow", // test5
+	bufferOverflow: "Buffer Overflow",
 	youtube: "https://www.youtube.com/watch?v=tEbBDlOFen0",
 	resuelta: true,
 });
@@ -733,7 +721,6 @@ Dataset.push({ name: "Fighter",
 	dificultad:	"Insane",
 	skills: "Advanced SQL Injection - MS SQL Server 2014 [Bypass Protection] [Python Scripting] [RCE] Abusing Cron Jobs Capcom Rootkit Privilege Escalation Binary and DLL Analysis in order to get root.txt [Radare2]",
 	like: "eWPT eWPTXv2 OSWE OSCP",
-	activeDirectory: "Active directory", // test5
 	bufferOverFlow: "Buffer overflow", // test5
 	youtube: "https://www.youtube.com/watch?v=DWF0inlo8Zw",
 	resuelta: true,
@@ -749,7 +736,7 @@ Dataset.push({ name: "Tabby",
 	like: "eWPT eWPTXv2 OSWE OSCP",
 	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
 	youtube: "https://twitch.tv/s4vitaar",
-	resuelta: false,
+	resuelta: true,
 });
 
 /*Dataset.push({ name: "",
