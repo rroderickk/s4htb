@@ -711,7 +711,7 @@ Dataset.push({ name: "Overflow",
 	dificultad: "Difícil",
 	skills: "Padding Oracle Attack (Padbuster) Padding Oracle Attack (Bit Flipper Attack - BurpSuite) [EXTRA] Cookie Hijacking SQL Injection (Generic UNION query) - Error Based Breaking Password Upload File - Abusing Exiftool (RCE) DNS Hijacking (Abusing Cron Job) Ghidra Binary Analysis Reversing Code (Computing valid PIN) Buffer Overflow (Controlling the program and manipulating its flow to desired functions) Abusing Decryption Function (XOR Trick) [Privilege Escalation]",
 	like: "OSWE eWPT eWPTXv2 Buffer Overflow",
-	bufferOverflow: "Buffer Overflow",
+								bufferOverFlow: "Buffer overflow",
 	youtube: "https://www.youtube.com/watch?v=tEbBDlOFen0",
 	resuelta: true,
 });
