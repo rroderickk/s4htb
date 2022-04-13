@@ -738,8 +738,7 @@ Dataset.push({ name: "Tabby",
 	dificultad:	"Fácil",
 	skills: "Local File Inclusion (LFI) Abusing Tomcat Virtual Host Manager Abusing Tomcat Text-Based-Manager - Deploy Malicious War (Curl Method) LXC Exploitation (Privilege Escalation)",
 	like: "eWPT eWPTXv2 OSWE OSCP",
-	comment: "[PROCESÁNDOSE EN YOUTUBE]",
-	youtube: "https://twitch.tv/s4vitaar",
+	youtube: "https://www.youtube.com/watch?v=hKCNrXXLClQ",
 	resuelta: true,
 });
 
