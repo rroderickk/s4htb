@@ -742,6 +742,19 @@ Dataset.push({ name: "Tabby",
 	resuelta: true,
 });
 
+Dataset.push({ name: "Backend",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.11.161",
+	so: "Linux",
+	dificultad:	"Media",
+	skills: "API Enumeration Abusing API - Registering a new user Abusing API Logging in as the created user Enumerating FastAPI EndPoints through Docs Abusing FastAPI - We managed to change the admin password Abusing FastAPI We get the ability to read files from the machine (Source Analysis) Creating our own privileged JWT Abusing FastAPI - We achieved remote command execution through the exec endpoint Information Leakage (Privilege Escalation)",
+	like: "eWPT OSWE",
+	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
+	youtube: "https://twitch.tv/s4vitaar",
+	resuelta: false,
+});
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
