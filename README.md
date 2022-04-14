@@ -4,6 +4,6 @@
 [![s4htbmachines](https://github.com/htbmachines/htbmachines.github.io/blob/main/public/assets/logos/s4vitar.svg
 )](https://htbmachines.github.io)
 
-[![Deploy](https://vercel.com/button)](https://rroderickk.github.io/s4htb)
+[![Deploy](https://vercel.com/button)](https://htbmachines.github.io)
 ![sc0](./public/assets/imgs/sc0.png)
 ![sc1](./public/assets/imgs/sc.png)
