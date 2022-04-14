@@ -754,6 +754,19 @@ Dataset.push({ name: "Backend",
 	resuelta: true,
 });
 
+Dataset.push({ name: "Hackback",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.10.128",
+	so: "Windows",
+	dificultad:	"Insane",
+	skills: "Subdomain Enumeration Information Leakage Password Fuzzing Gophish Template Log Poisoning (Limited RCE) Internal Port Discovery reGeorg - Accessing internal ports through a SOCKS proxy (proxychains) Accessing the WinRM service through reGeorg and SOCKS proxy Abusing Cron Job + SeImpersonatePrivilege Alternative Exploitation Playing with PIPES - pipeserverimpersonate Impersonating users and executing commands as the impersonated user Bypassing Firewall Rules (BlockInbound/BlockOutbound) Abusing Services Alternate Data Streams (ADS)",
+	like: "eWPT eWPTXv2 OSWE OSCP (Escalada) eCPTXv2",
+	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
+	youtube: "https://twitch.tv/s4vitaar",
+	resuelta: false,
+});
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
