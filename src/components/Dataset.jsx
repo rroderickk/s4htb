@@ -775,9 +775,8 @@ Dataset.push({ name: "October",
 	skills: "Abusing October CMS (Upload File Vulnerability) Buffer Overflow - Bypassing ASLR + Ret2libc (x32 bits) Buffer Overflow - Ret2libc without ASLR (x32 bits EXTRA)",
 	like: "eWPT (Intrusión) Buffer Overflow",
 	bufferOverFlow: "Buffer overflow",
-	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
-	youtube: "https://twitch.tv/s4vitaar",
-	resuelta: false,
+	youtube: "https://www.youtube.com/watch?v=3QZfUBVr-AA",
+	resuelta: true,
 });
 
 /*Dataset.push({ name: "",
