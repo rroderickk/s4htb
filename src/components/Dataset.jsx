@@ -789,9 +789,8 @@ Dataset.push({ name: "Holiday",
 	dificultad:	"Difícil",
 	skills: "SQL Injection - Sqlite XSS Injection - Bypassing Techniques (fromCharCode) + Own Javascript Code + Session Cookie Theft Abusing existing parameters - RCE NodeJS npm - Privilege Escalation",
 	like: "eWPT eWPTXv2 OSWE OSCP (Escalada)",
-	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
-	youtube: "https://twitch.tv/s4vitaar",
-	resuelta: false,
+	youtube: "https://www.youtube.com/watch?v=ymvb94yAefM",
+	resuelta: true,
 });
 
 /*Dataset.push({ name: "",
