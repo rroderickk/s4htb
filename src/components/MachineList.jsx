@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Box , Button
 } from '@chakra-ui/react'
-import { ViewIcon,  HamburgerIcon, TriangleUpIcon,
-SettingsIcon, DragHandleIcon, TriangleDownIcon,
+import { ViewIcon,  HamburgerIcon,
+SettingsIcon, DragHandleIcon,
 LinkIcon, CheckIcon, TriangleUpIcon,
 WarningTwoIcon, SmallCloseIcon,
 } from '@chakra-ui/icons'
@@ -15,10 +15,6 @@ const MachineList =(props)=> { return ( <>
   css={{borderRadius: "8px"}}
   boxShadow="0px 0px 40px rgba(0, 0, 0, 0.13)"
   className={props.light && props.color.theme4}
-> <TriangleDownIcon css={{ position: 'absolute', right: 0, marginTop: '-10px',marginRight: '40px', height: '20px'}}
-    _hover={{cursor: 'pointer'}} color="#e06c"
-    onClick={()=>window.scroll({top: 0,top: 99999999999, behavior: 'smooth'})}
-  />
 
 { props.objetosFiltrados.length!==0? 
 
@@ -83,7 +79,7 @@ const MachineList =(props)=> { return ( <>
             {obj.activeDirectory && <TriangleUpIcon color="blue" ml={4} mr={4} mt={-4}/>}
 
             <span style={{
-              color: "#61afef",
+              color: "blue",
             }}>{ obj.activeDirectory && obj.activeDirectory+' '}</span>&nbsp;
 
             {obj.bufferOverFlow && <HamburgerIcon color="orange" mr={4} mt={-4}/>}
@@ -123,10 +119,7 @@ const MachineList =(props)=> { return ( <>
   ( props.NotFound() ) 
 
 }
-  <TriangleUpIcon css={{position: 'absolute', right: 0, marginTop: '-10px',marginRight: '40px', height: '20px'}}
-    _hover={{cursor: 'pointer'}} color="#61afef"
-    onClick={()=>window.scroll({top: 0,top: 0, behavior: 'smooth'})}
-  />
+  
 </Container>
 
 </> ) }; export {MachineList};
