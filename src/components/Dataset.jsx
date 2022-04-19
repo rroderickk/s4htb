@@ -805,6 +805,18 @@ Dataset.push({ name: "Blunder",
 	resuelta: true,
 });
 
+Dataset.push({ name: "Static",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.10.246",
+	so: "Linux",
+	dificultad:	"Difícil",
+	skills: "Compressed File Recomposition (Fixgz) Abusing TOTP (Python Scripting - NTP protocol) Playing with Static Routes XDebug Exploitation (RCE) Abusing PHP-FPM (RCE) [CVE-2019-11043] (PIVOTING) Abusing Capabilities (cap_setuid + Path Hijacking | Privilege Escalation)",
+	like: "eWPT eJPT (Rutas Estáticas) eCPPTv2 eCPTXv2 OSWE OSCP",
+	youtube: "https://www.youtube.com/watch?v=BmtLkWmJbgk",
+	resuelta: true,
+});
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
