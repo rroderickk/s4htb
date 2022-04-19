@@ -793,6 +793,18 @@ Dataset.push({ name: "Holiday",
 	resuelta: true,
 });
 
+Dataset.push({ name: "Blunder",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.10.191",
+	so: "Linux",
+	dificultad:	"Fácil",
+	skills: "Bludit CMS Exploitation Bypassing IP Blocking (X-Forwarded-For Header) Directory Traversal Image File Upload (Playing with .htaccess) Abusing sudo privilege (CVE-2019-14287)",
+	like: "eWPT OSWE eWPTXv2",
+	youtube: "https://www.youtube.com/watch?v=C64POGPpank",
+	resuelta: true,
+});
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
