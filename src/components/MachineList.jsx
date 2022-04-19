@@ -15,6 +15,7 @@ const MachineList =(props)=> { return ( <>
   css={{borderRadius: "8px"}}
   boxShadow="0px 0px 40px rgba(0, 0, 0, 0.13)"
   className={props.light && props.color.theme4}
+>
 
 { props.objetosFiltrados.length!==0? 
 
@@ -119,7 +120,6 @@ const MachineList =(props)=> { return ( <>
   ( props.NotFound() ) 
 
 }
-  
 </Container>
 
 </> ) }; export {MachineList};
