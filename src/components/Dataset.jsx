@@ -13,7 +13,7 @@ const Dataset = [
 		ip: "10.10.10.244",
 		so: "Linux",
 		dificultad: "Difícil",
-		skills: "DNS Enumeration (dnsenum), SQUID Proxy, WPAD Enumeration, SQLI (Error Based) [WHQIS], PCAP Analysis (Tshark && Wireshark), Abusing Rootkit",
+		skills: "DNS Enumeration (dnsenum) SQUID Proxy WPAD Enumeration OpenSMTPD v2.0.0 Exploit SSH using Kerberos (gssapi) Abusing .k5login file Abusing krb5.keytab file",
 		like: "eCPPTv2 eCPTXv2 OSCP OSEP eWPT eWPTXv2 eWPTXv2 OSWE Active Directory",
 		youtube: "https://www.youtube.com/watch?v=hFIWuWVIDek",
 		activeDirectory: "Active directory",
