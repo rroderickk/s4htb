@@ -5,8 +5,9 @@ import { Home 	} from "@pages/Home";
 import { NotFound } from "@pages/NotFound";
 
 import { GlobalStyle } from "../GlobalStyle"
-import ThemeContext from "../components/ThemeContext";
+import "../_vars.scss"//(@)=>
 
+import ThemeContext from "../components/ThemeContext";
 
 const App =()=> { 
 
@@ -23,7 +24,7 @@ return (
 			<Routes>
 				 <Route exact path="/" 
 					element={
-						<Home light={!light} 
+						<Home light={light} 
 							color={color} 
 						/>} 
 				 />

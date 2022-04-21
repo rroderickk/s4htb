@@ -10,18 +10,19 @@ const Footer =()=> { return (<>
   fontWeight: "bold",
   fontFamily: "Hack",
 }}>Made by &nbsp;
-  <Button as='a' target='_blank' 
-    variant='outline' 
-    href="https://twitter.com/cheatmodes4/"
-    css={{ color: "crimson", border: "none" }}
+  <Button 
+      as='a' target='_blank' 
+        variant='outline' 
+      href="https://twitter.com/cheatmodes4/"
+    css={{ color: "crimson" }}
     _hover={{ color: "#48BB78" }}
   >
     <AtSignIcon/>CheatModes4
-      <img src={cheat} width="20px" height="20px"
-        style={{ borderRadius: "100%", margin: "0 4px"}}
-      />
+    <img src={cheat} width="20px" height="20px"
+      style={{ borderRadius: "100%", margin: "0 4px"}}
+    />
     </Button>
-    using React/ChakraUi, with affection to the Hack4u community.
+  using React/ChakraUi, with affection to the Hack4u community.
 </p>
 
 </> ) }; export {Footer};

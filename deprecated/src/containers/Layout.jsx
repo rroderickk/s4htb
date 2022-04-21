@@ -7,7 +7,7 @@ const styleLayout = {
 	backgroundColor: "var(--takuya)",
 	minHeight: "100vh",
   minWidth: "100%",
-	padding: "40px 10px",
+	padding: "40px 90px",
 	maxWidth: "100vw",
 };
 
@@ -32,7 +32,7 @@ return (
 			initial={{ y: -20, opacity: 0 }}
 			animate={{ y: 0, opacity: 1 }}
 			exit={{ y: 20, opacity: 0 }}
-			transition={{ duration: 0.8 }}
+			transition={{ duration: 0.2 }}
 		>
 			{ !light?  
 				<MoonIcon w={40} h={40} color="tomato"/> 

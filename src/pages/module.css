@@ -1,0 +1,40 @@
+img {
+		 animation-duration: 1.3s;
+	 animation-name: rotater;
+	 }
+
+ .App-logo{ padding: 40px 50px; }
+ .App-logo:hover{
+	 animation-name: parpadeo;
+	 animation-duration: .01s;
+	 animation-timing-function: linear;
+	 animation-iteration-count: infinite;
+	 -webkit-animation-name:parpadeo;
+	 -webkit-animation-duration: 0.001s;
+	 -webkit-animation-timing-function: linear;
+	 -webkit-animation-iteration-count: infinite;
+	 box-shadow: -2px 2px 40px rgb(255, 215, 112), 0 0 80px #a945c7;
+	 border-radius: 1000%;
+	 backdrop-filter: blur(10px) saturate(1090%);
+	 overflow: hidden;
+ }
+
+ @-moz-keyframes parpadeo{
+	 0% { opacity: 1.0; }
+	 50% { opacity: 0.0; }
+	 100% { opacity: 1.0; }
+ }@-webkit-keyframes parpadeo {
+	 0% { opacity: 1.0; }
+	 50% { opacity: 0.0; }
+	 100% { opacity: 1.0; }
+ }@keyframes parpadeo {
+	 0% { opacity: 1.0; }
+	 50% { opacity: 0.0; }
+	 100% { opacity: 1.0; }
+ }
+
+ @keyframes rotater  {
+	 0% { transform : rotate(0) scale(1) }
+	 50% { transform : rotate(360deg) scale(1.3) }
+	 100% { transform : rotate(720deg) scale(1) }
+	 }

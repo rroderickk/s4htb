@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Box , Button, useColorModeValue
+import { Container, Box , Button
 } from '@chakra-ui/react'
 import { ViewIcon, TriangleUpIcon,
   SettingsIcon, DragHandleIcon, HamburgerIcon,
@@ -7,16 +7,16 @@ import { ViewIcon, TriangleUpIcon,
   WarningTwoIcon, SmallCloseIcon,
 } from '@chakra-ui/icons'
 
-const MachineList =(props)=> { 
-  const s = useColorModeValue('#fff', '#000')
-return ( <>
+const MachineList =(props)=> { return ( <>
 
-<Container as="section" bg="white" py={2} pl={2} pr={2}
+<Container as="section"
+  bg="white" 
+  p={8} 
   css={{borderRadius: "8px"}}
   boxShadow="0px 0px 40px rgba(0, 0, 0, 0.13)"
   className={props.light && props.color.theme4}
-> <TriangleDownIcon css={{ position: 'absolute', right: 0, marginRight: '90px', height: '20px'}}
-    _hover={{cursor: 'pointer', color: "brand.s4vitarGreenTeam"}} color="#e06c" 
+> <TriangleDownIcon css={{ position: 'absolute', right: 0, marginTop: '-10px',marginRight: '40px', height: '20px'}}
+    _hover={{cursor: 'pointer'}} color="#e06c"
     onClick={()=>window.scroll({top: 0,top: 99999999999, behavior: 'smooth'})}
   />
 
@@ -31,7 +31,7 @@ return ( <>
           boxShadow={"0px 0px 40px rgba(0, 0, 0, 0.13)"}
           className={props.light && props.color.theme4}
         >
-          <Box p={13} flex='true' color={s}
+          <Box p={13} flex='true'
             __css={{ lineHeight: '1.5', }}
             className={props.light && props.color.theme2}
           >
@@ -51,14 +51,14 @@ return ( <>
               </Button>
               
               <DragHandleIcon 
-                ml={2} mr={4} mt={-1}
+                ml={40} mr={4} mt={-2}
               /> Ip {obj.ip}
 
                 &nbsp;
               Resolved? {obj.resuelta===true ? 
-                <CheckIcon mt={-1} color="green"/> 
+                <CheckIcon mt={-2} color="green"/> 
                                 :
-                <SmallCloseIcon mt={-1} color="red"/>}
+                <SmallCloseIcon mt={-2} color="red"/>}
 
                 &nbsp;&nbsp;&nbsp;
               <SettingsIcon 
@@ -121,8 +121,8 @@ return ( <>
       : 
       ( props.NotFound() ) 
   }
-  <TriangleUpIcon css={{position: 'absolute', right: 0, marginTop: '-20px',marginRight: '90px', height: '20px'}}
-    _hover={{cursor: 'pointer', color: 'brand.800'}} color="#61afef"
+  <TriangleUpIcon css={{position: 'absolute', right: 0, marginTop: '-10px',marginRight: '40px', height: '20px'}}
+    _hover={{cursor: 'pointer'}} color="#61afef"
     onClick={()=>window.scroll({top: 0,top: 0, behavior: 'smooth'})}
   />
 </Container>

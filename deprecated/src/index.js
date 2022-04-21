@@ -1,10 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { App } from "@routes/App";
-import { ChakraProvider } from "@chakra-ui/react";
-
 import ThemeContext from "../src/components/ThemeContext";
-import { Theme } from "./components/Theme";
 
 const style = {
   theme1: "dark",
@@ -15,11 +12,9 @@ const style = {
 
 ReactDOM.render(
   <React.StrictMode>
-    <ChakraProvider resetCSS theme={Theme}>
-      <ThemeContext.Provider value={style}>
-        <App/>
-      </ThemeContext.Provider>
-    </ChakraProvider>
+    <ThemeContext.Provider value={style}>
+      <App/>
+    </ThemeContext.Provider>
   </React.StrictMode>,
   document.getElementById("root")
 );

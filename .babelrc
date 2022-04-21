@@ -1,9 +1,9 @@
 {
 	"presets": [
 		"@babel/preset-env",
-		["@babel/preset-react", { 
-			"runtime": "automatic"
-		}]
+		["@babel/preset-react", { //!Evitar importar reacts en casi todos los archivos por ejemplo en login esto no funciona!
+			"runtime": "automatic",
+		}],
 ],
 "plugins": [
 	"@babel/plugin-transform-runtime"

@@ -1,14 +1,14 @@
 import * as React from "react";
 import neo from "@imgs/neo.png";
 import s4 from "@logos/s4vitar.svg";
-import { Box, Container, 
-  Button, Img,
+import { 
+  Box, Container, Button, Img,
 } from "@chakra-ui/react";
 import {  ViewIcon } from "@chakra-ui/icons";
 
 const Neofetch =()=> { return (<>
 <Container bg="white" p={8} as="section"  centerContent
-  css={{borderRadius: "8px"}}
+  css={{borderRadius: "8px"}} mt={48}
   boxShadow="0px 0px 40px rgba(0, 0, 0, 0.13)"
 >
   <Container alignContent={'center'} centerContent
@@ -37,7 +37,7 @@ const Neofetch =()=> { return (<>
       <a href="https://discord.com/invite/u3dsh9M"
         target="_blank" rel="noopener noreferrer">
 
-        <img width="100%" src={s4} alt="neofetch"
+        <img width="600px" src={s4} alt="neofetch"
           style={{ borderRadius: "8px", marginTop: "-80px"}}
         />
       </a>
