@@ -11,7 +11,7 @@ import ThemeContext from "../components/ThemeContext";
 
 const App =()=> { 
 
-	const [light,setDark] = React.useState(false);
+	const [light,setDark] = React.useState(true);
   const color = React.useContext(ThemeContext);
 
 return (
