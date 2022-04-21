@@ -817,6 +817,18 @@ Dataset.push({ name: "Static",
 	resuelta: true,
 });
 
+Dataset.push({ name: "Aragog",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.10.78",
+	so: "Linux",
+	dificultad:	"Media",
+	skills: "XXE (XML External Entity Injection) Exploitation Modifying a wordpress login to steal credentials (Privilege Escalation)",
+	like: "eWPT OSWE (Intrusión)",
+	youtube: "https://www.youtube.com/watch?v=Q2jTs8QepFQ",
+	resuelta: true,
+});
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
