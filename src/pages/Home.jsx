@@ -1,27 +1,24 @@
 import React from "react";
-import { Container,
-	Heading, Text, Input,
-  Tabs, TabList, TabPanels, Tab, 
-	TabPanel,
+import { Container, Heading, 
+	Text, Input, Tabs, TabList, 
+	TabPanels, Tab, TabPanel,
 	InputGroup, InputLeftElement,
- } from '@chakra-ui/react'
+} from '@chakra-ui/react';
+import { useSearchHook, NotFound, } from "../components/useSearchHook2";
 import { MachineList } from "../components/MachineList";
-import { SearchHook, NotFound, } from "../components/SearchHook2";
 import { SearchIcon, } from "@chakra-ui/icons";
 import { Neofetch } from '../components/Neofetch.jsx';
 import { Animate } from "./Animate";
 import { Footer } from "../components/Footer";
 
-const Home =({color, light})=> { 
+const Home =( {color, light} )=> { 
 	const {
 		searchValue,
     setSearchValue, 
     searchedText,
-	} = SearchHook();
+	} = useSearchHook();
 
-	const handleChange =(e)=> {
-		setSearchValue(e.target.value)
-	}
+	const handleChange =e=> setSearchValue(e.target.value)
 
 return ( <> <Animate>
 
@@ -88,7 +85,7 @@ return ( <> <Animate>
 			</TabList>
 
 			<TabPanels>
-				<TabPanel>
+<TabPanel>
 				<InputGroup>
 					<InputLeftElement
 						children={
@@ -121,15 +118,16 @@ return ( <> <Animate>
 						objetosFiltrados={searchedText}
 						NotFound={()=> NotFound(searchValue)}
 					/>
-				</TabPanel>
+</TabPanel>
 
 				<TabPanel>
 					<Neofetch/>
 				</TabPanel>
+
 			</TabPanels>
 		</Tabs>
 	</Container>
 </Container>
 <Footer/>
-</Animate>
-</>	); }; export { Home };
+
+</Animate> </>	); }; export { Home };

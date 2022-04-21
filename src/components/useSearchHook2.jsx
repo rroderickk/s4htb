@@ -25,7 +25,7 @@ const NotFound =(p)=> { return (<>
   </h2>
 </>)};
 
-const SearchHook =()=> {
+const useSearchHook =()=> {
   const [searchValue, setSearchValue] = React.useState('');
 
   let searchedText = [];
@@ -57,7 +57,13 @@ const SearchHook =()=> {
           .includes(searchValueLowerNoAccents)     ||
 
         obj.so.toLowerCase()
-          .includes(searchValueLowerNoAccents);
+          .includes(searchValueLowerNoAccents)     ||
+
+        obj.activeDirectory && obj.activeDirectory.toLowerCase()
+          .includes(searchValueLowerNoAccents)     ||
+
+        obj.bufferOverFlow && obj.bufferOverFlow.toLowerCase() 
+          .includes(searchValueLowerNoAccents)
     });
   };
 
@@ -67,4 +73,4 @@ const SearchHook =()=> {
     searchedText,
   } 
 
-}; export {SearchHook, NotFound};
+}; export {useSearchHook, NotFound};
