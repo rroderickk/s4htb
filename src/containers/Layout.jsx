@@ -26,6 +26,7 @@ return (
 			borderRadius: "100%",
 			border: "none",
 			background: "transparent",
+			cursor: 'pointer',
 	}}>
 		<motion.div
 			style={{ display: 'inline-block' }}
