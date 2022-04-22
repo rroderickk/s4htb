@@ -829,6 +829,31 @@ Dataset.push({ name: "Aragog",
 	resuelta: true,
 });
 
+Dataset.push({ name: "Querier",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.10.125",
+	so: "Windows",
+	dificultad:	"Media",
+	skills: "Macro Inspection (Olevba2) MSSQL Hash Stealing [Net-NTLMv2] (xp_dirtree) Abusing MSSQL (xp_cmdshell) Cached GPP Files (Privilege Escalation)",
+	like: "OSCP",
+	youtube: "https://www.youtube.com/watch?v=hfzYnjBzW_k",
+	activeDirectory: "Active directory",
+	resuelta: true,
+});
+
+Dataset.push({ name: "Toby",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.11.121",
+	so: "Linux",
+	dificultad:	"Insane",
+	skills: "Abusing GOGS (Project Enumeration) Static Code Analysis (Finding a backdoor with php-malware-scanner) Code deofuscation Reverse shell through backdoor Setting up a SOCKS5 Proxy (Chisel/Proxychains) Database Enumeration (Accessing GOGS) Abusing API (Stealing an authentication hash in MYSQL through Wireshark) Playing with epoch time to generate a potential list of passwords Cracking Hashes PIVOTING Process Enumeration (pspy) Abusing cron job to obtain a private key Decrypting database passwords (AES Encryption) Abusing PAM (Ghidra Analysis) Getting the root password by abusing time Advanced persistence techniques",
+	like: "eWPT OSWE eWPTXv2 eCPPTv2 eCPTXv2",
+	youtube: "https://www.youtube.com/watch?v=TLKid8-aI0E",
+	resuelta: true,
+});
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
