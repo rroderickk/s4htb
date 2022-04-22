@@ -3,8 +3,8 @@ import { mode        } from "@chakra-ui/theme-tools"
 
 const styles = {
   global: props=> ({
-    "#root": {
-      bg: mode('black')(props)
+    "Box": {
+      color: mode('red')(props)
     },
   })
 }

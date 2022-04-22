@@ -8,13 +8,14 @@ import { ViewIcon, TriangleUpIcon,
 } from '@chakra-ui/icons'
 
 const MachineList =(props)=> { 
-  const s = useColorModeValue('#fff', '#000')
+	const b = useColorModeValue("rgb(236, 242, 254)", "#111111");
+	const c = useColorModeValue("rgb(236, 242, 254)", "#121212");
+	const t = useColorModeValue("#121212", "rgb(236, 242, 254)");
 return ( <>
 
-<Container as="section" bg="white" py={2} pl={2} pr={2}
-  css={{borderRadius: "8px"}}
+<Container as="section" bg={b} py={2} pl={2} pr={2}
+  css={{borderRadius: "8px"}} 
   boxShadow="0px 0px 40px rgba(0, 0, 0, 0.13)"
-  className={props.light && props.color.theme4}
 > <TriangleDownIcon css={{ position: 'absolute', right: 0, marginRight: '90px', height: '20px'}}
     _hover={{cursor: 'pointer', color: "brand.s4vitarGreenTeam"}} color="#e06c" 
     onClick={()=>window.scroll({top: 0,top: 99999999999, behavior: 'smooth'})}
@@ -25,15 +26,13 @@ return ( <>
     props.objetosFiltrados.map( 
       obj=> { return ( <React.Fragment key={obj.sku} >
         <Container as="article"
-          bg="white" p={8} mb={8} mt={8}
+          bg={c} p={8} mb={8} mt={8}
             textAlign={'left'}
             css={{borderRadius: "8px"}}
           boxShadow={"0px 0px 40px rgba(0, 0, 0, 0.13)"}
-          className={props.light && props.color.theme4}
         >
-          <Box p={13} flex='true' color={s}
+          <Box p={13} flex='true' color={t}
             __css={{ lineHeight: '1.5', }}
-            className={props.light && props.color.theme2}
           >
             <Box __css={{
               verticalAlign: 'center',

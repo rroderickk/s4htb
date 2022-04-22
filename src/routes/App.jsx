@@ -5,31 +5,18 @@ import { Home 	} from "@pages/Home";
 import { NotFound } from "@pages/NotFound";
 
 import { GlobalStyle } from "../GlobalStyle"
-import ThemeContext from "../components/ThemeContext";
 
+const App =()=> { return (
 
-const App =()=> { 
-
-	const [light,setDark] = React.useState(false);
-  const color = React.useContext(ThemeContext);
-
-return (
 	<BrowserRouter basename="/s4htb">
 	<GlobalStyle/>
-		<Layout light={light} 
-			setDark={setDark} 
-			color={color}
-		>
+		<Layout >
 			<Routes>
-				 <Route exact path="/" 
-					element={
-						<Home light={!light} 
-							color={color} 
-						/>} 
-				 />
+				 <Route exact path="/" element={ <Home />} />
 
 				<Route exact path="*" element={<NotFound />} />
 			</Routes>
 		</Layout>
 	</BrowserRouter>
+
 ); }; export { App };

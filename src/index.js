@@ -15,7 +15,7 @@ const style = {
 
 ReactDOM.render(
   <React.StrictMode>
-    <ChakraProvider resetCSS theme={Theme}>
+    <ChakraProvider theme={Theme}>
       <ThemeContext.Provider value={style}>
         <App/>
       </ThemeContext.Provider>

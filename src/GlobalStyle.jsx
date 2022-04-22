@@ -30,7 +30,7 @@ export const GlobalStyle = createGlobalStyle`
     justify-content: center;
     font-family: "Roboto", sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
-
+${'' /* 
   .black {
     background-color: #21252e !important;
   }
@@ -42,7 +42,7 @@ export const GlobalStyle = createGlobalStyle`
   .whiteContrast {
     color: #fff !important;
 		filter: 'contrast(0.1) blur(0.4px)',
-  }
+  } */}
 
 `;
 

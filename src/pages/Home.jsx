@@ -11,7 +11,7 @@ import { Neofetch } from '../components/Neofetch.jsx';
 import { Animate } from "./Animate";
 import { Footer } from "../components/Footer";
 
-const Home =( {color, light} )=> { 
+const Home =()=> { 
 	const {
 		searchValue,
     setSearchValue, 
@@ -24,56 +24,50 @@ return ( <> <Animate>
 
 <Container as='main' fontFamily={'Hack'} centerContent> 
 	<Container as='header' centerContent>
-		<Heading as='h1' 
-			style={{
+		<Heading as='h1' style={{
 				marginTop: '40px',
 				fontSize: '2.1rem',
 				filter: 'blur(0.6px)',
-			}}>
-				S4vitar Machine's Resolutions
-		</Heading>
+			}}
+		> S4vitar Machine's Resolutions </Heading>
 
-		<Heading as='h2'
-			style={{
+		<Heading as='h2' style={{
 				fontSize: '1.3rem',
 				filter: 'contrast(0.2)',
 				fontWeight: '100',
 				marginTop: '40px',
 				filter: 'contrast(0.1) blur(0.4px)',
-			}}>
-				Resolved things
-			</Heading><br/><br/><br/>
+			}}
+			> Resolved things </Heading><br/><br/><br/>
 	</Container>
 
 	<Container as='section'>
 		<Tabs variant='enclosed' isFitted>
 			<TabList css={{
-				justifyContent: 'center',
-				filter: 'contrast(0.8) blur(0.4px)',
-			}} mb='1em'>
-				<Tab 
+					justifyContent: 'center',
+					filter: 'contrast(0.8) blur(0.4px)',
+				}} mb='1em'
+			> <Tab 
 					fontFamily={'Hack'}  color="#e06c76"
 					style={{backgroundColor: "transparent", border:"none"}}
 					_selected={{ 
 						color: '#98c379', 
 						bg: 'transparent', 
-						border: "none" 
-				}}>
-					<Text style={{
+						border: "none" }}
+				> <Text style={{
 							fontSize: "30px",
 							fontWeight: "100",
 						}} 
 					>Machines</Text>
 				</Tab>
-				<Tab
-					fontFamily={'Hack'} color="#e06c76"
+				<Tab fontFamily={'Hack'} color="#e06c76"
 					style={{backgroundColor: "transparent", border:"none"}}
 					_selected={{ 
-						color: '#98c379', 
-						bg: 'transparent', 
-						border: "none" 
-				}}>
-					<Text style={{
+							color: '#98c379', 
+							bg: 'transparent', 
+							border: "none" 
+						}}
+				> <Text style={{
 							fontSize: "30px",
 							fontWeight: "100",
 							background: "transparent",
@@ -98,7 +92,7 @@ return ( <> <Animate>
 						}
 					/>
 
-					<Input border="none" autoFocus className={light && color.theme4}
+					<Input border="none" autoFocus 
 						type='search' placeholder='Search (filter by) name, so, difficulty, skills, like.'
 						size='lg' fontSize={'24px'} borderRadius={'8px'}
 						minW={'280px'} w="100%" pb={9} pl={20} pt={12}
@@ -107,8 +101,6 @@ return ( <> <Animate>
 				</InputGroup>
 
 					<MachineList 
-						light={light}
-						color={color}
 						objetosFiltrados={searchedText}
 						NotFound={()=> NotFound(searchValue)}
 					/>
