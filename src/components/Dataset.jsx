@@ -854,6 +854,18 @@ Dataset.push({ name: "Toby",
 	resuelta: true,
 });
 
+Dataset.push({ name: "Backdoor",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.11.125",
+	so: "Linux",
+	dificultad:	"Fácil",
+	skills: "WordPress Local File Inclusion Vulnerability (LFI) LFI to RCE (Abusing /proc/PID/cmdline) Gdbserver RCE Vulnerability Abusing Screen (Privilege Escalation) [Session synchronization]",
+	like: "OSCP eWPT OSWE eWPTXv2",
+	youtube: "https://www.youtube.com/watch?v=u5hjJ3p-XfU",
+	resuelta: true,
+});
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
