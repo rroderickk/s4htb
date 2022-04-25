@@ -866,6 +866,19 @@ Dataset.push({ name: "Backdoor",
 	resuelta: true,
 });
 
+Dataset.push({ name: "Control",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.11.167",
+	so: "Windows",
+	dificultad:	"Difícil",
+	skills: "SQL Injection [SQLI] - Error Based Advanced Bash Scripting (EXTRA) SQLI to RCE (Into Outfile - PHP File Creation) ConPtyShell (Fully Interactive Reverse Shell for Windows) Playing with ScriptBlocks and PSCredential to execute commands as another user WinPEAS Enumeration Service ImagePath Hijacking (Privilege Escalation)",
+	like: "OSCP OSWE eWPT",
+	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
+	youtube: "https://twitch.tv/s4vitaar",
+	resuelta: false,
+});
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
