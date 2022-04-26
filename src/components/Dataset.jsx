@@ -874,9 +874,8 @@ Dataset.push({ name: "Control",
 	dificultad:	"Difícil",
 	skills: "SQL Injection [SQLI] - Error Based Advanced Bash Scripting (EXTRA) SQLI to RCE (Into Outfile - PHP File Creation) ConPtyShell (Fully Interactive Reverse Shell for Windows) Playing with ScriptBlocks and PSCredential to execute commands as another user AppLocker Bypass WinPEAS Enumeration Service ImagePath Hijacking (Privilege Escalation)",
 	like: "OSCP OSWE eWPT",
-	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
-	youtube: "https://twitch.tv/s4vitaar",
-	resuelta: false,
+	youtube: "https://www.youtube.com/watch?v=I1IDYLQeieE",
+	resuelta: true,
 });
 
 /*Dataset.push({ name: "",
