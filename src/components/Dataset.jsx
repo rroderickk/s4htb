@@ -878,6 +878,18 @@ Dataset.push({ name: "Control",
 	resuelta: true,
 });
 
+Dataset.push({ name: "Unobtainium",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.10.235",
+	so: "Linux",
+	dificultad:	"Difícil",
+	skills: "Inspecting custom application Code Analysis Information Leakage Local File Inclusion (LFI) Google CloudStorage Commands Vulnerability (Command Injection) [RCE] Prototype Pollution Exploitation (Granting us privileges) Kubernetes (Interacting with the API) [kubectl] Finding containers with kubectl PIVOTING Abusing Prototype Pollution to jump to another container Listing secrets with kubectl Creating malicious Pod (Privilege Escalation) [Bad Pods] Peirates - Kubernetes Penetration Testing Tool [EXTRA]",
+	like: "eWPT eWPTXv2 OSWE eCPPTv2 eCPTXv2",
+	youtube: "https://www.youtube.com/watch?v=zWDLDqis0Hs",
+	resuelta: true,
+});
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
