@@ -890,6 +890,19 @@ Dataset.push({ name: "Unobtainium",
 	resuelta: true,
 });
 
+Dataset.push({ name: "Cache",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.10.188",
+	so: "Linux",
+	dificultad:	"Media",
+	skills: "Information Leakage (Code Inspection) Abusing OpenEMR Broken Access Control Authentication Bypassing (Abusing the registration panel) SQL Injection - Error Based [SQLI] OpenEMR Authentication Exploit (RCE) Abusing Docker Group (Privilege Escalation)",
+	like: "eWPT OSWE OSCP (Escalada)",
+	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
+	youtube: "https://twitch.tv/s4vitaar",
+	resuelta: false,
+});
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
