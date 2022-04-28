@@ -898,9 +898,8 @@ Dataset.push({ name: "Cache",
 	dificultad:	"Media",
 	skills: "Information Leakage (Code Inspection) Abusing OpenEMR Broken Access Control Authentication Bypassing (Abusing the registration panel) SQL Injection - Error Based [SQLI] OpenEMR Authentication Exploit (RCE) Abusing Docker Group (Privilege Escalation)",
 	like: "eWPT OSWE OSCP (Escalada)",
-	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
-	youtube: "https://twitch.tv/s4vitaar",
-	resuelta: false,
+	youtube: "https://www.youtube.com/watch?v=C0zJUGM00mc",
+	resuelta: true,
 });
 
 /*Dataset.push({ name: "",
