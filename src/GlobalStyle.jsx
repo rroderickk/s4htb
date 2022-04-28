@@ -1,7 +1,7 @@
 import { createGlobalStyle, keyframes, css } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-  html {
+  ${'' /* html {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -29,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
     align-items: center;
     justify-content: center;
     font-family: "Roboto", sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
+  } */}
 ${'' /* 
   .black {
     background-color: #21252e !important;

@@ -21,7 +21,7 @@ const Home =()=> {
 
 return ( <> <Animate>
 
-<Container as='main' fontFamily={'Hack'} centerContent maxW={'1355px'}> 
+<Container as='main' fontFamily={'Hack'} centerContent maxW={'1355px'} px={[0,0,20,"53px"]} margin="auto"> 
 	<Container as='header' centerContent>
 		<Heading as='h1' style={{
 				marginTop: '40px',

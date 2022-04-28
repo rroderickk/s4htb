@@ -12,8 +12,7 @@ const App =()=> { return (
 	<GlobalStyle/>
 		<Layout >
 			<Routes>
-				 <Route exact path="/" element={ <Home />} />
-
+				<Route exact path="/" element={ <Home />} />
 				<Route exact path="*" element={<NotFound />} />
 			</Routes>
 		</Layout>
