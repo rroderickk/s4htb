@@ -902,6 +902,22 @@ Dataset.push({ name: "Cache",
 	resuelta: true,
 });
 
+const Dataset = [
+	{
+		name: "Sense",
+		id: count(),
+		sku: crypto.randomUUID(),
+		ip: "10.10.10.60",
+		so: "Linux",
+		dificultad: "Fácil",
+		skills: "Information Leakage PFsense - Abusing RRD Graphs (RCE) [Evasion Techniques] Python Exploit Development (AutoPwn) [EXTRA]",
+		like: "eWPT eWPTXv2 OSWE",
+		youtube: "https://twitch.tv/s4vitaar",
+		comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
+		resuelta: true,
+	},
+];
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
