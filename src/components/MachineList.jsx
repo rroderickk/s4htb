@@ -6,6 +6,7 @@ import { ViewIcon, TriangleUpIcon,
   LinkIcon, CheckIcon, TriangleDownIcon,
   WarningTwoIcon, SmallCloseIcon,
 } from '@chakra-ui/icons'
+import { Footer } from "../components/Footer";
 
 const MachineList =(props)=> { 
 	const b = useColorModeValue("rgb(236, 242, 254)", "#111111");
@@ -13,10 +14,10 @@ const MachineList =(props)=> {
 	const t = useColorModeValue("#121212", "rgb(236, 242, 254)");
 return ( <>
 
-<Container as="section" bg={b} py={2} pl={2} pr={2}
-  css={{borderRadius: "8px"}} 
-  boxShadow="0px 0px 40px rgba(0, 0, 0, 0.13)"
-> <TriangleDownIcon css={{ position: 'absolute', right: 0, marginRight: '90px', height: '20px'}}
+<Container as="section" bg={b} py={2} px={2}
+  css={{borderRadius: "8px", paddingBottom: "80px"}} pb={'40px'} mb={-4}
+  boxShadow="0px 0px 40px rgba(0, 0, 0, 0.13)" 
+> <TriangleDownIcon css={{display: "flex", flexDirection: "row-reverse", marginLeft: "auto", marginRight: "20px"}}
     _hover={{cursor: 'pointer', color: "brand.s4vitarGreenTeam"}} color="#e06c" 
     onClick={()=>window.scroll({top: 0,top: 99999999999, behavior: 'smooth'})}
   />
@@ -25,14 +26,14 @@ return ( <>
 
     props.objetosFiltrados.map( 
       obj=> { return ( <React.Fragment key={obj.sku} >
-        <Container as="article"
-          bg={c} p={8} mb={8} mt={8}
+        <Container as="article" 
+          bg={c} p={8} mb={3} my={6} mt={1}
             textAlign={'left'}
             css={{borderRadius: "8px"}}
           boxShadow={"0px 0px 40px rgba(0, 0, 0, 0.13)"}
         >
           <Box p={13} flex='true' color={t}
-            __css={{ lineHeight: '1.5', }}
+            __css={{ lineHeight: '1.5', }} direction="column"
           >
             <Box __css={{
               verticalAlign: 'center',
@@ -120,10 +121,12 @@ return ( <>
       : 
       ( props.NotFound() ) 
   }
-  <TriangleUpIcon css={{position: 'absolute', right: 0, marginTop: '-20px',marginRight: '90px', height: '20px'}}
+  <TriangleUpIcon css={{display: "flex", flexDirection: "row-reverse", marginLeft: "auto", marginRight: "20px"}}
     _hover={{cursor: 'pointer', color: 'brand.800'}} color="#61afef"
     onClick={()=>window.scroll({top: 0,top: 0, behavior: 'smooth'})}
   />
+
 </Container>
+<Footer/>
 
 </> ) }; export {MachineList};

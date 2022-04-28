@@ -5,27 +5,28 @@ import { Box, Container,
   Button, Img,
 } from "@chakra-ui/react";
 import {  ViewIcon } from "@chakra-ui/icons";
+import { Footer } from "./Footer";
 
 const Neofetch =()=> { return (<>
-<Container bg="white" p={8} as="section"  centerContent
-  css={{borderRadius: "8px"}}
+<Container bg="white" py={4} as="section"  centerContent
+  css={{borderRadius: "8px"}}  overflow="hidden"
   boxShadow="0px 0px 40px rgba(0, 0, 0, 0.13)"
 >
   <Container alignContent={'center'} centerContent
-    bg="white" p={8} mb={8} mt={8}
-      textAlign={'center'}
+    bg="white" p={8} mb={28}
+      textAlign={'center'}  overflow="hidden"
       css={{borderRadius: "8px"}}
     boxShadow={"0px 0px 40px rgba(0, 0, 0, 0.13)"}
-  >
-    <Box mt={48}>
-
-      <Box borderWidth="1px" p="8" maxW="820px">
-        <Img src={neo} alt="neofetch" w="100%"
+  > <Box mb={4} justifyContent="center" 
+      display="flex" alignItems={'center'} 
+      flexDir="column"
+    > <Box borderWidth="1px" p="8" maxW="820px" overflow="hidden" center>
+        <Img src={neo} alt="neofetch" w={{base: "500px", sm: "350px", md: "910px"}} h="100%" margin="auto"
           style={{ borderRadius: "8px"}}
         /><br/>
       </Box>
 
-        <Button m={10}
+        <Button m={10} px={48}
           leftIcon={<ViewIcon/>}
           as='a' target='_blank' 
           href="https://www.youtube.com/watch?v=fshLf6u8B-w"
@@ -43,5 +44,6 @@ const Neofetch =()=> { return (<>
       </a>
     </Box>
   </Container>
+  <Footer/>
 </Container>
 </> ) }; export {Neofetch};

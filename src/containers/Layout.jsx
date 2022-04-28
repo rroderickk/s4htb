@@ -10,8 +10,8 @@ const styleLayout = {
 	textAlign: "center",
 	backgroundColor: b,
 	minHeight: "100vh",
-  minWidth: "100%",
-	padding: "40px 10px",
+	padding: "40px 0px",
+	minWidth: "100vw",
 	maxWidth: "100vw",
 };
 
