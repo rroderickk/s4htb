@@ -11,7 +11,7 @@ const styleLayout = {
 	backgroundColor: b,
 	minHeight: "100vh",
 	padding: "40px 0px",
-	minWidth: "100vw",
+	minWidth: "100%",
 	maxWidth: "100vw",
 };
 
