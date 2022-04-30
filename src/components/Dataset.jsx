@@ -926,6 +926,20 @@ Dataset.push({ name: "Breadcrumbs",
 	resuelta: true,
 });
 
+Dataset.push({ name: "Search",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.11.129",
+	so: "Windows",
+	dificultad:	"Difícil",
+	skills: "Information Leakage - Password in picture (wtf?) RPC Enumeration (rpcclient) Ldap Enumeration (ldapdomaindump) Bloodhound Enumeration Kerberoasting Attack (GetUserSPNs.py) SMB Password Spray Attack (Crackmapexec) Unprotecting password-protected Excel (Remove Protection) Playing with pfx certificates Gaining access to Windows PowerShell Web Access Abusing ReadGMSAPassword privilege Abusing GenericAll privilege (Resetting a user's password) Gaining access with wmiexec",
+	like: "OSCP OSEP Active Directory",
+	activeDirectory: "Active Directory",
+	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
+	youtube: "https://twitch.tv/s4vitaar",
+	resuelta: false,
+});
+
 /*Dataset.push({ name: "",
 	id: count(),
 	sku: crypto.randomUUID(),
