@@ -27,10 +27,10 @@ return (
 		transition={{ duration: 0.8 }}
 	> 
 		<ThemeToggleButton/> 
-		</motion.div>
-		<Animate>
-			{children}
-		</Animate>
+	</motion.div>
+	<Animate>
+		{children}
+	</Animate>
 </Box>
 
 ) }; export { Layout };

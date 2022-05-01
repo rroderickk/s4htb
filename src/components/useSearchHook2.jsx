@@ -4,9 +4,9 @@ import savi from "@icons/savi.jpg"
 
 const NotFound =(p)=> { return (<>
   <p style={{
-    fontSize: "1.5rem",
-    fontFamily: "Hack",
-  }}
+      fontSize: "1.5rem",
+      fontFamily: "Hack",
+    }}
   >
     {p} not found!<br/>
   </p>
@@ -14,12 +14,15 @@ const NotFound =(p)=> { return (<>
     style={{
       marginTop: "10px",
       borderRadius: "50%",
+      margin: "20px auto",
     }}
   />
   <h2 style={{
     fontSize: "1.5rem",
     fontWeight: "bold",
     color: "red",
+    paddingTop: "10px",
+    paddingBottom: "30px",
   }}>
     SE TENSÓ!
   </h2>
