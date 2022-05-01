@@ -4,13 +4,13 @@ import { Layout } from "@containers/Layout";
 import { Home 	} from "@pages/Home";
 import { NotFound } from "@pages/NotFound";
 
-import { GlobalStyle } from "../GlobalStyle"
+// import { GlobalStyle } from "../GlobalStyle"
 
 const App =()=> { return (
 
 	<BrowserRouter basename="/s4htb">
-	<GlobalStyle/>
-		<Layout >
+	{/* <GlobalStyle/> */}
+		<Layout>
 			<Routes>
 				<Route exact path="/" element={ <Home />} />
 				<Route exact path="*" element={<NotFound />} />

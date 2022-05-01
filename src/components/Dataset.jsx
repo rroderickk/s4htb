@@ -876,6 +876,7 @@ Dataset.push({ name: "Control",
 	like: "OSCP OSWE eWPT",
 	youtube: "https://www.youtube.com/watch?v=I1IDYLQeieE",
 	resuelta: true,
+	comment: "Bash Scripting class",
 });
 
 Dataset.push({ name: "Unobtainium",
@@ -911,9 +912,36 @@ Dataset.push({ name: "Sense",
 	skills: "Information Leakage PFsense - Abusing RRD Graphs (RCE) [Evasion Techniques] Python Exploit Development (AutoPwn) [EXTRA]",
 	like: "eWPT eWPTXv2 OSWE",
 	youtube: "https://twitch.tv/s4vitaar",
-	comment: "[ESTA NOCHE EN DIRECTO POR TWITCH]",
+	comment: "",
 	resuelta: true,
 });
+
+Dataset.push({ name: "Breadcrumbs",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.10.228",
+	so: "Windows",
+	dificultad:	"Difícil",
+	skills: "Local File Inclusion (LFI) [Abusing file_get_contents] Abusing No Redirect Forge PHPSESSID and getting valid Cookies Forge JWT Uploading WebShell Obtaining system credentials through the webshell Abusing Sticky Notes Binary Analysis (Radare2) SQL Injection (SQLI) [Error Based] AES Decrypt (Cyberchief)",
+	like: "eWPT eWPTXv2 OSWE OSCP",
+	youtube: "https://www.youtube.com/watch?v=R89-6VzGgFs",
+	resuelta: true,
+});
+
+Dataset.push({ name: "Search",
+	id: count(),
+	sku: crypto.randomUUID(),
+	ip: "10.10.11.129",
+	so: "Windows",
+	dificultad:	"Difícil",
+	skills: "Information Leakage - Password in picture (wtf?) RPC Enumeration (rpcclient) Ldap Enumeration (ldapdomaindump) Bloodhound Enumeration Kerberoasting Attack (GetUserSPNs.py) SMB Password Spray Attack (Crackmapexec) Unprotecting password-protected Excel (Remove Protection) Playing with pfx certificates Gaining access to Windows PowerShell Web Access Abusing ReadGMSAPassword privilege Abusing GenericAll privilege (Resetting a user's password) Gaining access with wmiexec",
+	like: "OSCP OSEP Active Directory",
+	activeDirectory: "Active Directory",
+	youtube: "https://www.youtube.com/watch?v=vTsD0TSgdGg",
+	resuelta: true,
+	comment: "Crack xlsx doc",
+});
+
 
 /*Dataset.push({ name: "",
 	id: count(),

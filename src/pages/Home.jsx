@@ -8,7 +8,6 @@ import { useSearchHook, NotFound, } from "../components/useSearchHook2";
 import { MachineList } from "../components/MachineList";
 import { SearchIcon, } from "@chakra-ui/icons";
 import { Neofetch } from '../components/Neofetch.jsx';
-import { Animate } from "./Animate";
 
 const Home =()=> { 
 	const {
@@ -19,7 +18,7 @@ const Home =()=> {
 	const c = useColorModeValue("#e1e7f2", "#111111")
 	const handleChange =e=> setSearchValue(e.target.value)
 
-return ( <> <Animate>
+return ( <>
 
 <Container as='main' fontFamily={'Hack'} centerContent maxW={'1355px'} px={[0,0,20,"53px"]} margin="auto"> 
 	<Container as='header' centerContent>
@@ -102,4 +101,4 @@ return ( <> <Animate>
 	</Container>
 </Container>
 
-</Animate> </>	); }; export { Home };
+</>	); }; export { Home };

@@ -20,7 +20,7 @@ const Neofetch =()=> { return (<>
   > <Box mb={4} justifyContent="center" 
       display="flex" alignItems={'center'} 
       flexDir="column"
-    > <Box borderWidth="1px" p="8" maxW="820px" overflow="hidden" center>
+    > <Box borderWidth="1px" p="8" maxW="820px" overflow="hidden" center="true">
         <Img src={neo} alt="neofetch" w={{base: "500px", sm: "350px", md: "910px"}} h="100%" margin="auto"
           style={{ borderRadius: "8px"}}
         /><br/>

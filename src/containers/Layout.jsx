@@ -2,6 +2,8 @@ import * as React from "react";
 import { motion } from 'framer-motion'
 import { ThemeToggleButton } from '../components/ThemeToggleButton'
 import { useColorModeValue } from '@chakra-ui/react'
+import { Animate } from "../pages/Animate";
+import { Box } from '@chakra-ui/react';
 
 const Layout = ({ children })=> { 
 
@@ -17,14 +19,18 @@ const styleLayout = {
 
 return (
 
-<div style={styleLayout}> 
-	<motion.div style={{ display: 'inline-block' }}
-			initial={{ y: -20, opacity: 0 }}
-			animate={{ y: 0, opacity: 1 }}
-			exit={{ y: 20, opacity: 0 }}
-			transition={{ duration: 0.8 }}
-	> <ThemeToggleButton/> </motion.div>
-		{children}
-</div>
+<Box style={styleLayout}> 
+	<motion.div 
+		initial={{ y: -20, opacity: 0 }}
+		animate={{ y: 0, opacity: 1 }}
+		exit={{ y: 20, opacity: 0 }}
+		transition={{ duration: 0.8 }}
+	> 
+		<ThemeToggleButton/> 
+		</motion.div>
+		<Animate>
+			{children}
+		</Animate>
+</Box>
 
 ) }; export { Layout };

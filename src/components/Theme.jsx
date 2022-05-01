@@ -41,7 +41,7 @@ const fonts ={
 }
 const config ={
   initialColorMode: 'dark',
-  useSystemColorMode:false 
+  useSystemColorMode: true 
 }
 const colors ={
   brand: {
